@@ -33,6 +33,9 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		//return "public:public/content.tiles";
+		//return "public:booking/booking.tiles";
+		//return "public:booking/paying.tiles";
 		return "public:public/content.tiles";
 	}
 	
